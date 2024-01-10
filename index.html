@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med World</title>
+    <link rel="icon" href="Images\Icon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="main" id="main">
+        <div class="nav">
+            <div class="logo">
+                <div class="logo-option">
+                    <img src="Images\logo-option.png" alt="">
+                    <span id="text">MED WORLD</span>
+                </div>
+                <div class="location">
+                    <div class="delivery">
+                        <i class="fa-solid fa-truck"></i>
+                        <span id="delivery">Delivery to</span>
+                    </div>
+                    <div>
+                        <span>Select pincode</span>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-option">
+                <div id="user">
+                    <i class="fa-solid fa-user fa-xl"></i>
+                </div>
+                <div class="discount remove6">
+                    <img src="Images\icons8-discount.gif" alt="">
+                </div>
+                
+                <div id="cart">
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </div> 
+            </div>
+        </div>
+        <div class="nav-catagory">
+            <div class="nav_cat_1">Medicines</div>
+            <div class="nav_cat_1 remove6">Baby Care</div>
+            <div class="nav_cat_1">Covid Essentials</div>
+            <div class="nav_cat_1 remove4">Health & Nutrition</div>
+            <div class="nav_cat_1 remove8">Women Care</div>
+            <div class="nav_cat_1 remove1">Personal Care</div>
+            <div class="nav_cat_1 remove2">Ayurveda</div>
+            <div class="nav_cat_1 remove8">Health Devices</div>
+            <div class="nav_cat_1">Find Doctors</div>
+            <div class="nav_cat_1">Lab Tests</div>
+        </div>
+        <section class="main-part">
+            
+            <header class="banner">
+                <div class="search-bar"> 
+                    <div style="color: white; font-size: 1.1875rem; padding-bottom: 0.625rem;">What are you looking for?</div>
+                   
+                 
+                 <input class="form-control" type="text" placeholder="Search Here" aria-label="default input example" id="search-box">
+                    
+                 <label for="text">
+                    <button type="button" class="btn btn-primary" id="search-button" >Search</button>
+                 </label>
+                
+                </div>
+            </header>
+            <main class="main-body">
+                <!--brand card-->
+                <div class="main-body-card">
+                    <div style="display: flex; justify-content: space-between;">
+                        <h4 style="color: white; margin-bottom: 0.5rem; margin-left: 0.6875rem; padding-top: 0.5rem;">Shop By Brand</h4>
+                        <h6 style="color: white; margin-right: 0.9375rem;  margin-top: 0.5rem;">ViewAll <span><i class="fa-solid fa-chevron-right"></i></span></h6>
+                    </div>
+                    <div class="cards">
+                        <!--card 1-->
+                        <div class=" card-brand style-hover style-transition">
+                            <div class="image1">
+                                <img src="Images\dabur-official.jpg" alt="Dabur" style="margin-top: 1.25rem;">
+                            </div> 
+                        </div>
+                        <!--card 2-->
+                        <div class=" card-brand style-hover style-transition">
+                            <div class="image1">
+                                <img src="Images\baidyanath.jpg" alt="" style="margin-top: 1.875rem;">
+                            </div>
+                        </div>
+                        <!--card 3-->
+                        <div class=" card-brand style-hover style-transition">
+                            <div class="image1">
+                                <img src="Images\himalaya-logo.jpg" alt="">
+                            </div>
+                        </div>
+                        <!--card 4-->
+                        <div class=" card-brand style-hover style-transition ">
+                            <div class="image1">
+                                <img src="Images\revital.png" alt="">
+                            </div>
+                        </div>
+                        <!--card 5-->
+                        <div class=" card-brand style-hover style-transition remove5 see">
+                            <div class="image1">
+                                <img src="Images\Logo-new-hansaplast.webp" alt="" style="margin-top: 1.875rem;">
+                            </div>
+                        </div>
+                        <!--card 6-->
+                        <div class=" card-brand style-hover style-transition remove2 see" >
+                            <div class="image1">
+                                <img src="Images\Muscleblaze.jpg" alt="">
+                            </div>
+                        </div> 
+                        
+                        
+                    </div>
+                </div>
+                <!--brand card end-->
+                <br>
+                <!--trending product-->
+                <div class="main-body-Trending">
+                    <div style="display: flex; justify-content: space-between;">
+                        <h4 style="color: white; margin-bottom: 0.5rem; margin-left: 0.6875rem; padding-top: 0.5rem;">Trending Now</h4>
+                        <h6 style="color: white; margin-right: 0.9375rem;  margin-top: 0.5rem;">ViewAll <span><i class="fa-solid fa-chevron-right"></i></span></h6>
+                    </div>
+                    <div class="cards">
+                        <!--card 1-->
+                        <div class="card-option style-hover style-transition">
+                            <div class="trend" >
+                                <img src="Images\protinex.jpg" alt="">
+                            </div>
+                            <div class="card-text">
+                                <h6 style="width: 100%; height: 3.5625rem;">Protinex Diabetes Care Creamy Vanilla Flavour Nutritional Drink ....</h6>
+                                <p style="margin: 0;">Delivery By <b>10pm</b> , <b>Tomorrow</b></p>
+                                <p style=" margin:0; margin-top: 0.3125rem; margin-bottom: 0.5rem;">
+                                    <span class="paragraph-price">&#8377; 654.8</span> 
+                                    <span class="paragraph-strike">(&#8377; 740)</span>
+                                    <span class="paragraph-discount">11.51% off</span>
+                                </p>
+                            
+
+                            </div>
+                            <div class="card-button">
+                                <button type="button" class="btn btn-primary">AddToCart</button>
+                                <button type="button" class="btn btn-primary">BuyNow </button> 
+                            </div>
+                        </div>
+                        <!--card 2-->
+                        <div class="card-option style-hover style-transition">
+                            <div class="trend" >
+                                <img src="Images\multi vitamins.jpg" alt="">
+                            </div>
+                            <div class="card-text">
+                                <h6 style="width: 100%; height: 3.5625rem;">Zingavita Multivitamins for Men with Omega 3 | For Immunity,  ....</h6>
+                                <p style="margin: 0;">Delivery By <b>10pm</b> , <b>Tomorrow</b></p>
+                                <p style=" margin:0; margin-top: 0.3125rem; margin-bottom: 0.5rem;">
+                                    <span class="paragraph-price">&#8377; 349</span> 
+                                    <span class="paragraph-strike">(&#8377; 799)</span>
+                                    <span class="paragraph-discount">56% off</span>
+                                </p>
+                            
+
+                            </div>
+                            <div class="card-button">
+                                <button type="button" class="btn btn-primary">AddToCart</button>
+                                <button type="button" class="btn btn-primary">BuyNow </button> 
+                            </div>
+                        </div>
+                        <!--card 3-->
+                        <div class="card-option style-hover style-transition ">
+                            <div class="trend" >
+                                <img src="Images\evion.jpg" alt="">
+                            </div>
+                            <div class="card-text">
+                                <h6 style="width: 100%; height:3.5625rem;">Evion 400 mg capsules, contain Vitamin E, that as a powerful ....</h6>
+                                <p style="margin: 0;">Delivery By <b>10pm</b> , <b>Tomorrow</b></p>
+                                <p style=" margin:0; margin-top: 0.3125rem; margin-bottom: 0.5rem;">
+                                    <span class="paragraph-price">&#8377; 69</span> 
+                                    <span class="paragraph-strike">(&#8377; 79)</span>
+                                    <span class="paragraph-discount">15% off</span>
+                                </p>
+                            
+
+                            </div>
+                            <div class="card-button">
+                                <button type="button" class="btn btn-primary">AddToCart</button>
+                                <button type="button" class="btn btn-primary">BuyNow </button> 
+                            </div>
+                        </div>
+                        <!--card 4-->
+                        <div class="card-option style-hover style-transition ">
+                            <div class="trend" >
+                                <img src="Images\omwga 3.webp" alt="" style="margin-bottom: 0.4375rem;">
+                            </div>
+                            <div class="card-text">
+                                <h6 >Combo Pack of Tata 1mg Multivitamin Supreme Capsule (60) & Dr. ....</h6>
+                                <p style="margin: 0;">Delivery By <b>10pm</b> , <b>Tomorrow</b></p>
+                                <p style=" margin:0; margin-top: 0.3125rem; margin-bottom: 0.5rem;">
+                                    <span class="paragraph-price">&#8377; 654.8</span> 
+                                    <span class="paragraph-strike">(&#8377; 740)</span>
+                                    <span class="paragraph-discount">11.51% off</span>
+                                </p>
+                            
+
+                            </div>
+                            <div class="card-button">
+                                <button type="button" class="btn btn-primary">AddToCart</button>
+                                <button type="button" class="btn btn-primary">BuyNow </button> 
+                            </div>
+                        </div>
+                        <!--card 5-->
+                        <div class="card-option style-hover style-transition remove3 see">
+                            <div class="trend" >
+                                <img src="Images\cool mint.jpg" alt="" style="margin-bottom: 0.4375rem;">
+                            </div>
+                            <div class="card-text">
+                                <h6 >Oral Care Combo of Listerine Mouth Wash Cool Mint 500ml ....</h6>
+                                <p style="margin: 0;">Delivery By <b>10pm</b> , <b>Tomorrow</b></p>
+                                <p style=" margin:0; margin-top: 0.3125rem; margin-bottom: 0.5rem;">
+                                    <span class="paragraph-price">&#8377; 654.8</span> 
+                                    <span class="paragraph-strike">(&#8377; 740)</span>
+                                    <span class="paragraph-discount">11.51% off</span>
+                                </p>
+                            </div>
+                            <div class="card-button">
+                                <button type="button" class="btn btn-primary">AddToCart</button>
+                                <button type="button" class="btn btn-primary">BuyNow </button> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--trending end -->
+                <br>
+                <!--lab test-->
+                <div class="main-body-labtest">
+                    <h4 style="color: white; margin-bottom: 0.5rem; margin-left:0.6875rem; padding-top: 0.5rem;">Popular Lab Tests</h4>
+                    <div class="card-lab">
+                        <div class="card-labests">
+                            <!--card1-->
+                            <div class="cards-labtest">
+                                <div class="labtest-modify">
+                                 <img src="Images\Full_Body_Checkup.webp" alt="">
+                                </div>
+                                <div class="labtest-paragraph">
+                                    <p>Full Body checkup</p>
+                                </div>
+                            </div>
+                            <!--card2-->
+                            <div class="cards-labtest">
+                                <div class="labtest-modify">
+                                    <img src="Images\Diabetes.webp" alt="">
+                             </div>
+                                <div class="labtest-paragraph" style="top: 1.875rem;">
+                                    <p >Diabetes</p>
+                                </div>
+                            </div>
+                            <!--card3-->
+                            <div class="cards-labtest">
+                                <div class="labtest-modify">
+                                    <img src="Images\Default.webp" alt="">
+                             </div>
+                                <div class="labtest-paragraph" style="top: 1.875rem; left: 1.875rem;">
+                                    <p>Hairfall</p>
+                                </div>
+                            </div>
+                            <!--card4-->
+                            <div class="cards-labtest">
+                                <div class="labtest-modify" >
+                                    <img src="Images\Covid.webp" alt="">
+                                </div>
+                                <div class="labtest-paragraph" style="top: 1.875rem;">
+                                    <p>Covid 19</p>
+                                </div>
+                            </div>
+                            <!--card5-->
+                            <div class="cards-labtest">
+                                <div class="labtest-modify">
+                                    <img src="Images\Fever_1.webp" alt="">
+                                </div>
+                                <div class="labtest-paragraph" style="top: 1.875rem; left: 2.25rem;">
+                                    <p>Fever</p>
+                                </div>
+                            </div>
+                            <!--card6-->
+                            <div class="cards-labtest">
+                                <div class="labtest-modify">
+                                    <img src="Images\Heart.webp" alt="">
+                                </div>
+                                <div class="labtest-paragraph" style="top: 1.875rem; left: 2.25rem;">
+                                    <p>Heart</p>
+                                </div>
+                            </div>
+                            <!--card7-->
+                            <div class="cards-labtest">
+                                <div class="labtest-modify">
+                                    <img src="Images\Hormone.webp" alt="">
+                                </div>
+                                <div class="labtest-paragraph" style="top: 1.875rem;">
+                                    <p>Hormone</p>
+                                </div>
+                            </div>
+                            <!--card8-->
+                            <div class="cards-labtest">
+                                <div class="labtest-modify">
+                                    <img src="Images\Kidney_1.webp" alt="">
+                                </div>
+                                <div class="labtest-paragraph" style="top: 1.875rem; left:2.0625rem;">
+                                    <p>Kidney</p>
+                                </div>
+                            </div>
+                            <!--card9-->
+                            <div class="cards-labtest"> 
+                                <div class="labtest-modify">
+                                    <img src="Images\Liver_3.webp" alt="">
+                                </div>
+                                <div class="labtest-paragraph" style="top: 1.875rem; left: 2.375rem;">
+                                    <p>Liver</p>
+                                </div>
+                            </div>
+                            <!--card10-->
+                            <div class="cards-labtest">
+                                <div class="labtest-modify">
+                                    <img src="Images\Senior_Citizen_2.webp" alt="">
+                                </div>
+                                <div class="labtest-paragraph" style="left: 2.125rem;">
+                                    <p>Senior <br>Citizen</p>
+                                </div>
+                            </div>
+                            <!--card11-->
+                            <div class="cards-labtest remove5">
+                                <div class="labtest-modify">
+                                    <img src="Images\tax saver.webp" alt="">
+                                </div>
+                                <div class="labtest-paragraph" style="top: 1.875rem;">
+                                    <p>Tax Saver</p>
+                                </div>
+                            </div>
+                            <!--card12-->
+                            <div class="cards-labtest remove5">
+                                <div class="labtest-modify">
+                                    <img src="Images\Thyroid_1.webp" alt="">
+                                </div>
+                                <div class="labtest-paragraph" style="top: 1.875rem; left: 1.875rem;">
+                                    <p>Thyroid</p>
+                                </div>
+                            </div>
+                            <!--card13-->
+                            <div class="cards-labtest remove5">
+                                <div class="labtest-modify">
+                                    <img src="Images\Vitamin_Deficiency.webp" alt="">
+                                </div>
+                                <div class="labtest-paragraph">
+                                    <p>Vitamin Deficiency</p>
+                                </div>
+                            </div>
+                            <!--card14-->
+                            <div class="cards-labtest remove5">
+                                <div class="labtest-modify">
+                                    <img src="Images\Women_Health.webp" alt="">
+                                </div>
+                                <div class="labtest-paragraph">
+                                    <p>Women <br> Health</p>
+                                </div>
+                            </div>
+                            <!--card15-->
+                            <div class="cards-labtest remove3">
+                                <div class="labtest-modify">
+                                    <img src="Images\ic_gold.webp" alt="">
+                                </div>
+                                <div class="labtest-paragraph" style="top: 1.875rem; left:1.9375rem;">
+                                    <p>Ic Gold</p>
+                                </div>
+                            </div>
+                            <!--card16-->
+                            <div class="cards-labtest remove3">
+                                <div class="labtest-modify">
+                                    <img src="Images\Blood studies.webp" alt="">
+                                </div>
+                                <div class="labtest-paragraph" style="left: 1.875rem;">
+                                    <p>Blood <br>Studies</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!--card-->
+                    <div class="cards">
+                        <!--card1-->
+                        <div class="card-option style-hover style-transition " id="body-checkup-card">
+                            
+                            <div >
+                                <img src=" https://bookmyscans.com/media/wysiwyg/preventive-health-checkup.png" alt=""  style="margin: 1rem;margin-left: 1.125rem;border-radius: 5%; height:9.6875rem ;width:15.9375rem">
+                            </div>
+                                    
+                             
+                            <div class="card-text">
+                                <h6 style="width: 100%; font-size: 1.25rem;height: 3.125rem; font-weight: 700; padding-top: 0.625rem;">Full Body Checkup ....</h6>
+                                <p>
+                                Includes 78 Tests _ <br>
+                                    Serum Calcium
+                                    Serum Iron Studies Basic
+                                    Vitamin Profile
+                                    ESR <br>
+                                    <span style="font-weight: 500;">+ More</span>
+
+                                </p>
+                                <p style=" font-size: 0.9375rem;">Get report within <b>18hours</b></p>
+                                <p style=" margin:0; margin-top: 0.3125rem; margin-bottom: 0.9375rem;">
+                                    <span class="paragraph-price">&#8377; 2149</span> 
+                                    <span class="paragraph-strike">(&#8377; 4300)</span>
+                                    <span class="paragraph-discount">50%off</span>
+                                </p>
+                                
+    
+                            </div>
+                             <div class="card-button">
+                                <button type="button" class="btn btn-primary" style="margin-top: 0.8125rem;">Book Now</button>
+                               
+                            </div>
+                        </div>
+                        
+        
+                        
+                        <!--card2-->
+                        <div class="card-option style-hover style-transition "id="body-checkup-card">
+                            
+                            <div >
+                                <img src=" https://www.healthcareontime.com/test/images/diabetes-test-basic.jpg" alt=""  style="margin: 1rem;margin-left: 1.125rem;border-radius: 5%; height:9.6875rem; width:15.9375rem">
+                            </div>
+                                    
+                               
+                            <div class="card-text">
+                                <h6 style="width: 100%; font-size: 1.25rem;height: 3.125rem; font-weight: 700; padding-top: 0.625rem;">Diabetes Checkup  ....</h6>
+                                <p>
+                                    Includes 29 Tests _ <br>
+                                    Microalbumin Creatinine Ratio, 
+                                    Urine HbA1c (Hemoglobin A1c)
+                                    FBS  <br>
+                                    <span style="font-weight: 500;">+ More</span>
+
+                                </p>
+                                <p style=" font-size: 0.9375rem;">Get report within <b>18hours</b></p>
+                                <p style=" margin:0; margin-top: 0.3125rem; margin-bottom: 0.9375rem;">
+                                    <span class="paragraph-price">&#8377; 1009</span> 
+                                    <span class="paragraph-strike">(&#8377; 1099)</span>
+                                    <span class="paragraph-discount">08%off</span>
+                                </p>
+                                
+    
+                            </div>
+                            <div class="card-button">
+                                <button type="button" class="btn btn-primary" style="margin-top: 0.8125rem;">Book Now</button>
+                               
+                            </div>
+                        </div>
+                        <!--card3-->
+                        <div class="card-option style-hover style-transition  remove6"id="body-checkup-card">
+                            
+                            <div >
+                                <img src="data:image/jpeg;base64,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" alt=""
+                                  style="margin:1rem;margin-left: 1.125rem;border-radius: 5%; height:9.6875rem; width:15.9375rem">
+                            </div>
+                                    
+                              
+                            
+                            <div class="card-text">
+                                <h6 style="width: 100%; font-size: 1.25rem;height: 3.125rem; font-weight: 700; padding-top: 0.625rem;">Women Wellness checkup</h6>
+                                <p>
+                                    Includes 46 Tests _ <br>
+                                    Serum Iron Studies Basic
+                                    Rheumatoid Factor 
+                                    Serum  <br>
+                                    <span style="font-weight: 500;">+ More</span>
+
+                                </p>
+                                <p style=" font-size: 0.9375rem;">Get report within <b>24hours</b></p>
+                                <p style=" margin:0; margin-top: 0.3125rem; margin-bottom: 0.9375rem;">
+                                    <span class="paragraph-price">&#8377; 2149</span> 
+                                    <span class="paragraph-strike">(&#8377; 4300)</span>
+                                    <span class="paragraph-discount">50%off</span>
+                                 </p>
+                                
+    
+                            </div>
+                            <div class="card-button">
+                                <button type="button" class="btn btn-primary" style="margin-top: 0.8125rem;">Book Now</button>
+                               
+                            </div>
+                        </div>
+                        <!--card4-->
+                        <div class="card-option style-hover style-transition remove2 "id="body-checkup-card">
+                            
+                            <div >
+                                <img src="https://www.carehospitals.com/indore/assets/images/main/1662966301_8cf6e829c3414fab09eb.png" alt="" style="margin: 1rem;margin-left: 1.125rem;border-radius: 5%; height:9.6875rem ; width:15.9375rem ">
+                            </div>
+                                    
+                            <div class="card-text">
+                                <h6 style="width: 100%; font-size: 1.25rem;height: 3.125rem; font-weight: 700; padding-top: 0.625rem;">Senior Citizen Checkup ....</h6>
+                                <p>
+                                    Includes 61 Tests _ <br>
+                                    Serum Calcium
+                                    Anti-CCP Antibody
+                                    Diabetic Screen
+                                    ESR <br>
+                                        <span style="font-weight: 500;">+ More</span>
+
+                                </p>
+                                <p style=" font-size: 0.9375rem;">Get report within <b>30hours</b></p>
+                                <p style=" margin:0; margin-top: 0.3125rem; margin-bottom: 0.9375rem;">
+                                    <span class="paragraph-price">&#8377; 2349</span> 
+                                    <span class="paragraph-strike">(&#8377; 4700)</span>
+                                    <span class="paragraph-discount">50%off</span>
+                                </p>
+                                
+    
+                            </div>
+                            <div class="card-button">
+                                <button type="button" class="btn btn-primary" style="margin-top: 0.8125rem;">Book Now</button>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end-->
+
+                <br>
+                <!--online doctor part-->
+                <div class="main-body-doctorbook">
+                <h4 style="color: white; margin-bottom: 0.5rem; margin-left: 0.6875rem; padding-top: 0.5rem;">Online Doctor Consultation</h4>
+                <div class="book">
+
+                    <div class="find-out1 remove2">
+                        
+                        <div>
+                            <h6 style="font-size: 1.1875rem; margin-left: 0.5625rem; margin-top:0.625rem ;">Feeling unwell?</h6>
+                            <p style=" margin-left: 0.5625rem; margin-top:0.625rem ;" >
+                                Check your symptoms with this assessment in less than 3 min and consult a doctor
+                            </p>
+                        </div>
+                        
+                        <div class="findout1-consult-img">
+                            <div class="consult-img">
+                                <img src="Images\enter-symptoms-homePage.webp" alt="">
+                            </div>
+                            <div class="consult-img">
+                                <img src=" Images\understand-caused-homePage.webp" alt="">
+                            </div>
+                            <div class="consult-img">
+                                <img src="Images\book-consult-homePage.webp" alt="">
+                            </div>
+                            <div class="consult-img" id="consult-img">
+                                <span style="font-size: 1.0625rem; font-weight: 500; "> Get Started 
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="find-out2">
+                        <section class="steps">
+                            <h5 style="font-weight: 600; ">Find a Doctor Nearby in Just 3 Easy Steps</h5>
+                        </section>
+                        <section class="input-details ">
+                            <div class="input-data">
+                                <p style="margin: 0; font-size: 0.875rem; font-weight: 500;">Your Area/ Pin-Code*</p>
+                                <input type="text" id="input-data" placeholder="Search Area..">
+                                <i class="fa-solid fa-magnifying-glass-location" style=" position: absolute; right: 0.625rem;top: 2.0625rem; font-size: 1.5625rem;color:#222421"></i>
+                            </div>
+                            <div class="input-data">
+                                <p style="margin: 0; font-size: 0.875rem; font-weight: 500;">Speciality*</p>
+                                <input type="text" id="input-data">
+                                <i class="fa-solid fa-magnifying-glass" style=" position: absolute; left: 0.625rem;top: 2.1875rem; font-size: 1.25rem; color:#222421"></i>
+                                <i class="fa-solid fa-chevron-down" style=" position: absolute; right: 0.625rem;top: 2.1975rem; font-size: 0.9375rem; color:#222421"></i>
+                            </div>
+                        </section>
+                        <section class="input-details">
+                            <div class="input-data" style="width: 18.4375rem;">
+                                <p style="margin: 0; font-size: 0.875rem; font-weight: 500;">Time to Meet*</p>
+                                <button type="button" class="btn btn-outline-primary">Morning</button>
+                                <button type="button" class="btn btn-outline-primary">Afternoon</button>
+                                <button type="button" class="btn btn-outline-primary">Evening</button>
+                            </div>
+                            <div class="input-data" id="input-data-button">
+                                <button type="button" class="btn btn-primary btn-lg">SUBMIT</button>
+                            </div>
+                        </section>
+                    </div>
+                    
+                </div>
+
+                <br>
+                <!--doctor review-->
+                <div class="cards" style="justify-content: space-evenly; height: 35.625rem;" id="cards">
+                    <!--1st doctor-->
+                    <div class="card-option2 style-hover style-transition">
+                        <div class="doctors-card">
+                            <div>
+                                <img src="Images\dr.1.webp" alt="" style="height: 5rem; width: 5rem; border-radius: 50%;">
+                                <a href="#" style="position: absolute; left: 0.875rem; bottom: 0.9375rem; text-decoration: none;  "> More About</a>
+                            </div>
+                            <div>
+                                <h5 style="margin: 0; color: rgb(13, 47, 105);">Dr. Balaganpathy R</h5>
+                                <h6>DERMATOLOGY | 8 YRS</h6>
+                                <p style="font-size: 0.875rem; margin: 0.125rem;">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                    MBBS, MD <br>
+                                    <div style="display: flex; justify-content: space-between;">
+                                        <div>
+                                            For Online<br>
+                                            <span class="paragraph-price" style=" font-weight: 500;">&#8377; 450</span>
+                                        </div>
+                                        <div>
+                                            For  Visit <br>
+                                            <span class="paragraph-price" style=" font-weight: 500;">&#8377; 600</span>
+                                        </div>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                        <div style="margin-left: 0.5rem;">
+                            <i class="fa-solid fa-globe"></i>
+                            Tamil , English
+                            <br>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Apollo Speciality Hospitals Old Palpannai,Trichy    
+                        </div>
+                        
+                        <div class="btn-group" role="group" aria-label="Basic example" style="position: absolute; left: 1.875rem; bottom: 0.625rem; opacity: 0.8;">
+                            <button type="button" class="btn btn-primary">ForOnlineBook</button>
+                            <button type="button" class="btn btn-primary">ForHospitalBook</button>
+                        </div>
+
+                    </div>
+                    <!--2nd doctor-->
+                    <div class="card-option2 style-hover style-transition">
+                        <div class="doctors-card">
+                            <div>
+                                <img src="Images\doc2.webp" alt="" style="height: 5rem; width: 5rem; border-radius: 50%;">
+                                <a href="#" style="position: absolute; left: 0.875rem; bottom: 0.9375rem; text-decoration: none;  "> More About</a>
+                            </div>
+                            <div>
+                                <h5 style="margin: 0; color: rgb(13, 47, 105);">Dr. Abhijna Rai</h5>
+                                <h6>DERMATOLOGY | 14 YRS</h6>
+                                <p style="font-size: 0.875rem; margin: 0.125rem;">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                    MBBS, MD <br>
+                                    <div style="display: flex; justify-content: space-between;">
+                                        <div>
+                                            For Online<br>
+                                            <span class="paragraph-price" style=" font-weight: 500;">&#8377; 1000</span>
+                                        </div>
+                                        <div>
+                                            For  Visit <br>
+                                            <span class="paragraph-price" style=" font-weight: 500;">&#8377; 1200</span>
+                                        </div>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                        <div style="margin-left: 0.5rem;">
+                            <i class="fa-solid fa-globe"></i>
+                            Tamil , English , Hindi
+                            <br>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Apollo Speciality Hospitals Old Palpannai,Trichy    
+                        </div>
+                        
+                        <div class="btn-group" role="group" aria-label="Basic example" style="position: absolute; left: 1.875rem; bottom: 0.625rem; opacity: 0.8;">
+                            <button type="button" class="btn btn-primary">ForOnlineBook</button>
+                            <button type="button" class="btn btn-primary">ForHospitalBook</button>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <!--doctor 3-->
+                    <div class="card-option2 style-hover style-transition ">
+                        <div class="doctors-card">
+                            <div>
+                                <img src="Images\doc2.webp" alt="" style="height: 5rem; width: 5rem; border-radius: 50%;">
+                                <a href="#" style="position: absolute; left: 0.875rem; bottom: 0.9375rem; text-decoration: none;  "> More About</a>
+                            </div>
+                            <div>
+                                <h5 style="margin: 0; color: rgb(13, 47, 105);">Dr. Abhijna Rai</h5>
+                                <h6>DERMATOLOGY | 14 YRS</h6>
+                                <p style="font-size: 0.875rem; margin:0.125rem;">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                    MBBS, MD <br>
+                                    <div style="display: flex; justify-content: space-between;">
+                                        <div>
+                                            For Online<br>
+                                            <span class="paragraph-price" style=" font-weight: 500;">&#8377; 1000</span>
+                                        </div>
+                                        <div>
+                                            For  Visit <br>
+                                            <span class="paragraph-price" style=" font-weight: 500;">&#8377; 1200</span>
+                                        </div>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                        <div style="margin-left: 0.5rem;">
+                            <i class="fa-solid fa-globe"></i>
+                            Tamil , English , Hindi
+                            <br>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Apollo Speciality Hospitals Old Palpannai,Trichy    
+                        </div>
+                        
+                        <div class="btn-group" role="group" aria-label="Basic example" style="position: absolute; left: 1.875rem; bottom: 0.625rem; opacity: 0.8;">
+                            <button type="button" class="btn btn-primary">ForOnlineBook</button>
+                            <button type="button" class="btn btn-primary">ForHospitalBook</button>
+                        </div>
+
+                    </div>
+                   <!--4th doctor-->
+                   <div class="card-option2 style-hover style-transition " >
+                        <div class="doctors-card">
+                            <div>
+                                <img src="Images\doc2.webp" alt="" style="height: 5rem; width: 5rem; border-radius: 50%;">
+                                    <a href="#" style="position: absolute; left: 0.875rem; bottom: 0.9375rem; text-decoration: none;  "> More About</a>
+                            </div>
+                            <div>
+                                <h5 style="margin: 0; color: rgb(13, 47, 105);">Dr. Abhijna Rai</h5>
+                                <h6>DERMATOLOGY | 14 YRS</h6>
+                                <p style="font-size: 0.875rem; margin: 0.125rem;">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                    MBBS, MD <br>
+                                    <div style="display: flex; justify-content: space-between;">
+                                        <div>
+                                            For Online<br>
+                                            <span class="paragraph-price" style=" font-weight: 500;">&#8377; 1000</span>
+                                        </div>
+                                        <div>
+                                            For  Visit <br>
+                                            <span class="paragraph-price" style=" font-weight: 500;">&#8377; 1200</span>
+                                        </div>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                        <div style="margin-left: 0.5rem;">
+                            <i class="fa-solid fa-globe"></i>
+                            Tamil , English , Hindi
+                            <br>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Apollo Speciality Hospitals Old Palpannai,Trichy    
+                        </div>
+                    
+                        <div class="btn-group" role="group" aria-label="Basic example" style="position: absolute; left: 1.875rem; bottom: 0.625rem; opacity: 0.8;">
+                            <button type="button" class="btn btn-primary">ForOnlineBook</button>
+                            <button type="button" class="btn btn-primary">ForHospitalBook</button>
+                        </div>
+
+                    </div>
+                    <!--5th doctor-->
+                    <div class="card-option2 style-hover style-transition remove4 " >
+                        <div class="doctors-card">
+                            <div>
+                                <img src="Images\doc2.webp" alt="" style="height: 5rem; width: 5rem; border-radius: 50%;">
+                                <a href="#" style="position: absolute; left: 0.875rem; bottom: 0.9375rem; text-decoration: none;  "> More About</a>
+                            </div>
+                            <div>
+                                <h5 style="margin: 0; color: rgb(13, 47, 105);">Dr. Abhijna Rai</h5>
+                                <h6>DERMATOLOGY | 14 YRS</h6>
+                                <p style="font-size: 0.875rem; margin: 0.125rem;">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                    MBBS, MD <br>
+                                    <div style="display: flex; justify-content: space-between;">
+                                        <div>
+                                            For Online<br>
+                                            <span class="paragraph-price" style=" font-weight: 500;">&#8377; 1000</span>
+                                        </div>
+                                        <div>
+                                            For  Visit <br>
+                                            <span class="paragraph-price" style=" font-weight: 500;">&#8377; 1200</span>
+                                        </div>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                        <div style="margin-left: 0.5rem;">
+                            <i class="fa-solid fa-globe"></i>
+                            Tamil , English , Hindi
+                            <br>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Apollo Speciality Hospitals Old Palpannai,Trichy    
+                        </div>
+                        
+                        <div class="btn-group" role="group" aria-label="Basic example" style="position: absolute; left: 1.875rem; bottom: 0.625rem; opacity: 0.8;">
+                            <button type="button" class="btn btn-primary">ForOnlineBook</button>
+                            <button type="button" class="btn btn-primary">ForHospitalBook</button>
+                        </div>
+
+                    </div>
+
+                    <!--6th doctor-->
+                    <div class="card-option2 style-hover style-transition remove4" >
+                        <div class="doctors-card">
+                            <div>
+                                <img src="Images\doc2.webp" alt="" style="height: 5rem; width: 5rem; border-radius: 50%;">
+                                <a href="#" style="position: absolute; left: 0.875rem; bottom: 0.9375rem; text-decoration: none;  "> More About</a>
+                            </div>
+                            <div>
+                                <h5 style="margin: 0; color: rgb(13, 47, 105);">Dr. Abhijna Rai</h5>
+                                <h6>DERMATOLOGY | 14 YRS</h6>
+                                <p style="font-size: 0.875rem; margin: 0.125rem;">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                    MBBS, MD <br>
+                                    <div style="display: flex; justify-content: space-between;">
+                                        <div>
+                                            For Online<br>
+                                            <span class="paragraph-price" style=" font-weight: 500;">&#8377; 1000</span>
+                                        </div>
+                                        <div>
+                                            For  Visit <br>
+                                            <span class="paragraph-price" style=" font-weight: 500;">&#8377; 1200</span>
+                                        </div>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                        <div style="margin-left: 0.5rem;">
+                            <i class="fa-solid fa-globe"></i>
+                            Tamil , English , Hindi
+                            <br>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Apollo Speciality Hospitals Old Palpannai,Trichy    
+                        </div>
+                        
+                        <div class="btn-group" role="group" aria-label="Basic example" style="position: absolute; left: 1.875rem; bottom: 0.625rem; opacity: 0.8;">
+                            <button type="button" class="btn btn-primary">ForOnlineBook</button>
+                            <button type="button" class="btn btn-primary">ForHospitalBook</button>
+                        </div>
+
+                    </div> <!--end card-option2--> <!--6th doctor end-->
+                 
+                </div> <!--end card-->
+                </div>
+
+
+
+            </main>
+            <footer class="main-footer">
+                <div class="footer-part">
+                    <div>
+                        <h5>About Med World</h5>
+                        <p>About Us</p>
+                        <p>FAQs</p>
+                        <p>Find a Pharmacy</p>
+                        <p>Careers</p>
+                        <p>Contact Us</p>
+                        <p>Blogs</p>
+                        <p>Health Queries</p>
+                        <p> Know Your Health Credits</p>
+                    </div>
+                    <div>
+                        <h5>Services
+                        </h5>
+                        <p>Online Doctor Consultation</p>
+                        <p>All Doctors List</p>
+                        <p>Consult Physicians</p>
+                        <p>Consult Dermatologists
+                        </p>
+                        <p>Consult Diabetologists</p>
+                        <p>Consult Geriatricians</p>
+                        <p>Consult ENT Specialists</p>
+                        <p>Consult Gynaecologists</p>
+                    </div>
+                    <div>
+                        <h5>Book Lab Tests at Home</h5>
+                        <p>RT PCR Test At Home</p>
+                        <p>Book Lab Tests at Home</p>
+                        <p>Renal Profile (KFT, RFT Test)</p>
+                        <p>Hemogram Test</p>
+                        <p>Lipid Profile Test</p>
+                        <p>D Dimer Test</p>
+                        <p>Urine Culture Test</p>
+                        <p>Widal Test</p>
+                    </div>
+                    <div>
+                        <h5>Product Categories</h5>
+                        <p>View All Brands</p>
+                        <p>View All Salts</p>
+                        <p>View All Medicine</p>
+                        <p>Health Devices</p>
+                        <p>Personal Care</p>
+                        <p>Baby Care</p>
+                        <p>Diabetes Care</p>
+                        <p>Patanjali Coronil Kit</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-logo">
+                    <div class="footer-img">
+                        <img src="Images\logo-option.png" alt="">
+                        <span id="text" style="top: 2.25rem; left: 10.625rem;">MED WORLD</span>
+                    </div>
+                    <div>
+                        <p style="margin-bottom: 1.25rem; margin-top: 0.625rem; margin-left: 0rem; font-weight: 500;">Get MED WORLD App on</p>
+                       <span ><img src="Images\goo+app.png" alt="" style="width: 11.4375rem; height: 7.5rem;"></span>
+                    </div>
+                    <div>
+                        <p style="margin-bottom: 2.1875rem; margin-top: 0.625rem; margin-left: 3.125rem; font-weight: 500;">Find us on</p>
+                        <div style="margin-right: 2.5rem;">
+                            <i class="fa-brands fa-facebook" style="font-size: 2.5rem; margin-right: 0.625rem;"></i>
+                            <i class="fa-brands fa-instagram" style="font-size: 2.5rem; margin-right: 0.625rem;"></i>
+                            <i class="fa-brands fa-youtube" style="font-size:2.5rem; margin-right: 0.625rem;"></i>
+                            <i class="fa-brands fa-linkedin" style="font-size: 2.5rem; margin-right: 0.625rem;"></i>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </div>
+
+</body>
+</html>
